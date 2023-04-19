@@ -2,7 +2,7 @@ const hre = require("hardhat")
 
 
 async function main() {
-    console.log(" Deploy smart contract ")
+  console.log(" Deploy smart contract ")
     signers = await ethers.getSigners();
 
     console.log(" Signer ", signers.length)

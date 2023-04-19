@@ -14,7 +14,7 @@ module.exports = {
   },
   networks: {
     devnet: {
-      url: `http://127.0.0.1:8545`,
+      url: `https://home.nhimapp.com`,
       accounts: [`0x${process.env.PRIVATE_KEY0}`,`0x${process.env.PRIVATE_KEY1}`, `0x${process.env.PRIVATE_KEY2}`, `0x${process.env.PRIVATE_KEY3}`, `0x${process.env.PRIVATE_KEY4}`]
     },
   },
